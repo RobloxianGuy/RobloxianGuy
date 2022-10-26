@@ -1,0 +1,39 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Dahood Only Gui")
+
+-- MAIN
+local Main = Window:NewTab("LockScripts")
+local MainSection = Main:NewSection("MoonGodLock")
+
+
+MainSection:NewButton("C to lock", "This is moongod lock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/Dahood%20Lock"))()
+end)
+
+local MainSection = Main:NewSection("Hood Customs Lock")
+MainSection:NewButton("C to lock", "This is Hood Customs Lock (it works for dahood to)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/Hood%20Customs%20Lock"))()
+end)
+
+
+local Main = Window:NewTab("Dahood Gui")
+local MainSection = Main:NewSection("Dimag16")
+
+MainSection:NewButton("Dimag16", "This is dimag16 script this is not my script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
+end)
+
+local MainSection = Main:NewSection("CFrame Gui")
+MainSection:NewButton("CFrame", "This is CFrame makes u realy fast faster than speed glitch", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/Cframe"))()
+end)
+
+local MainSection = Main:NewSection("GS21 Victime Menu")
+MainSection:NewButton("Victime Menu", "This is victime menu from gs21", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/DH-VictimMenu-Script/main/Dh%20VictimMenu%3A%20Script"))()
+end)
+
+local MainSection = Main:NewSection("SwagMode")
+MainSection:NewButton("SwagMode", "This is swagmode in dahood", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
