@@ -1,0 +1,434 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Luke UI", "BloodTheme")
+
+-- MAIN
+local Main = Window:NewTab("LockScripts/Ware")
+local MainSection = Main:NewSection("MoonGodLock")
+
+
+MainSection:NewButton("C to lock", "This is moongod lock", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/Dahood%20Lock"))()
+end)
+
+local MainSection = Main:NewSection("Hood Customs Lock")
+MainSection:NewButton("C to lock", "This is Hood Customs Lock (it works for dahood to)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/Hood%20Customs%20Lock"))()
+end)
+
+local MainSection = Main:NewSection("FazeWare")
+MainSection:NewButton("FazeWare", "FazeWare only works on dahood", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/FazeWare"))()
+end)
+
+local MainSection = Main:NewSection("DoomWare-Reborn")
+MainSection:NewButton("DoomWare-Reborn", "DoomWare", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/buqs9999/Doomware/main/Aimlock"))()
+end)
+
+local MainSection = Main:NewSection("NixWare")
+MainSection:NewButton("NixWare", "NixWare", function()
+    Loadstring(game:HttpGet('https://ekso.gq/raw/relases/nixware.lua'))()
+end)
+
+local MainSection = Main:NewSection("FeevWare")
+MainSection:NewButton("FeevWare", "FeevWare", function()
+    Loadstring(game:HttpGet('https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/FeevWare'))()
+end)
+
+local MainSection = Main:NewSection("AimWare")
+MainSection:NewButton("AimWare", "AimWare", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/fg0C9NSS'))()
+end)
+
+local MainSection = Main:NewSection("FakeLimiteds")
+MainSection:NewButton("FakeLimiteds", "FakeLimiteds", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ForestIsPro/VisualWorks/main/FreeHats'))()
+end)
+
+local MainSection = Main:NewSection("AntiFling")
+MainSection:NewButton("AntiFling", "AntiFling", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/AntiFling'))()
+end)
+
+
+local Main = Window:NewTab("Normal Lock Sets")
+local MainSection = Main:NewSection("20 = 40 Ping")
+MainSection:NewButton("0.126", "0.126", function()
+    print("0.126")
+end)
+
+MainSection:NewButton("0.135", "0.135", function()
+    print("0.135")
+end)
+
+MainSection:NewButton("0.115", "0.115", function()
+    print("0.115")
+end)
+
+
+local MainSection = Main:NewSection("40 = 60 Ping")
+MainSection:NewButton("0.132 Close/Mid Set", "0.132", function()
+    print("0.132")
+end)
+
+MainSection:NewButton("0.113129 Close/Mid Set", "0.113129", function()
+    print("0.113129")
+end)
+
+MainSection:NewButton("0.12 Far set", "0.12", function()
+    print("0.12")
+end)
+
+MainSection:NewButton("0.129145 CLOSE AND MID set", "0.129145", function()
+    print("0.129145")
+end)
+
+local MainSection = Main:NewSection("60 = 90 Ping (Humanoid rootpart Only)")
+MainSection:NewButton("0.156 CLOSE/Mid", "0.156", function()
+    print("0.156")
+end)
+
+MainSection:NewButton("0.163 CLOSE/Mid", "0.163", function()
+    print("0.163")
+end)
+
+MainSection:NewButton("0.1402 CLOSE/Mid", "0.1402", function()
+    print("0.1402")
+end)
+
+MainSection:NewButton("0.12842 CLOSE/Mid", "0.12842", function()
+    print("0.12842")
+end)
+
+MainSection:NewButton("0.11983 CLOSE/Mid", "0.11983", function()
+    print("0.11983")
+end)
+
+local MainSection = Main:NewSection("70 = 90 Ping set (MID / CLOSE / FAR SETS)")
+
+MainSection:NewButton("0.121192", "0.121192", function()
+    print("0.121192")
+end)
+
+MainSection:NewButton("0.129331234", "0.129331234", function()
+    print("0.129331234")
+end)
+
+MainSection:NewButton("0.1923441", "0.1923441", function()
+    print("0.1923441")
+end)
+
+MainSection:NewButton("0.125345", "0.125345", function()
+    print("0.125345")
+end)
+
+MainSection:NewButton("0.162231", "0.162231", function()
+    print("0.162231")
+end)
+
+MainSection:NewButton("0.1244512", "0.1244512", function()
+    print("0.1244512")
+end)
+
+MainSection:NewButton("0.142934", "0.142934", function()
+    print("0.142934")
+end)
+
+MainSection:NewButton("0.143324", "0.143324", function()
+    print("0.143324")
+end)
+
+MainSection:NewButton("0.193444", "0.193444", function()
+    print("0.193444")
+end)
+
+local MainSection = Main:NewSection("100 = 140 Ping set (Far / Mid / Close)")
+
+MainSection:NewButton("0.159", "0.159", function()
+    print("0.159")
+end)
+
+MainSection:NewButton("0.1659921", "0.1659921", function()
+    print("0.1659921")
+end)
+
+MainSection:NewButton("0.15634", "0.15634", function()
+    print("0.15634")
+end)
+
+MainSection:NewButton("0.166", "0.166", function()
+    print("0.166")
+end)
+
+MainSection:NewButton("0.124", "0.124", function()
+    print("0.124")
+end)
+
+MainSection:NewButton("0.12399", "0.12399", function()
+    print("0.12399")
+end)
+
+MainSection:NewButton("0.1455", "0.1455", function()
+    print("0.1455")
+end)
+
+MainSection:NewButton("0.1655", "0.1655", function()
+    print("0.1655")
+end)
+
+MainSection:NewButton("0.15465", "0.15465", function()
+    print("0.15465")
+end)
+
+MainSection:NewButton("0.165773", "0.165773", function()
+    print("0.165773")
+end)
+
+MainSection:NewButton("0.156692", "0.156692", function()
+    print("0.156692")
+end)
+
+MainSection:NewButton("0.130340", "0.130340", function()
+    print("0.130340")
+end)
+
+MainSection:NewButton("0.132516 (close) --This is pretty trash", "0.132516", function()
+    print("0.132516")
+end)
+
+
+local MainSection = Main:NewSection("140 - 180 Ping Close / Mid range sets")
+
+MainSection:NewButton("0.129934", "0.129934", function()
+    print("0.129934")
+end)
+
+MainSection:NewButton("0.1652131", "0.1652131", function()
+    print("0.1652131")
+end)
+
+MainSection:NewButton("0.125333", "But0.125333tonInfo", function()
+    print("0.125333")
+end)
+
+MainSection:NewButton("0.1223333", "0.1223333", function()
+    print("0.1223333")
+end)
+
+MainSection:NewButton("0.15", "0.15", function()
+    print("0.15")
+end)
+
+MainSection:NewButton("0.16", "0.16", function()
+    print("0.16")
+end)
+
+MainSection:NewButton("0.165455312399999 (far)", "0.16545531239999", function()
+    print("0.165455312399999")
+end)
+
+MainSection:NewButton("0.16779123", "0.16779123", function()
+    print("0.16779123")
+end)
+
+MainSection:NewButton("0.1235666", "0.1235666", function()
+    print("0.1235666")
+end)
+
+MainSection:NewButton("0.1690", "0.1690", function()
+    print("0.1690")
+end)
+
+MainSection:NewButton("0.1923111", "0.1923111", function()
+    print("0.1923111")
+end)
+
+local MainSection = Main:NewSection("200-300 Ping far / mid sets ")
+
+MainSection:NewButton("0.1746", "0.1746", function()
+    print("0.1746")
+end)
+
+MainSection:NewButton("0.1567", "0.1567", function()
+    print("0.1567")
+end)
+
+MainSection:NewButton("0.1654", "0.1654", function()
+    print("0.1654")
+end)
+
+MainSection:NewButton("0.18321", "0.18321", function()
+    print("0.18321")
+end)
+
+MainSection:NewButton("0.1456", "0.1456", function()
+    print("0.1456")
+end)
+
+MainSection:NewButton("0.165561", "0.165561", function()
+    print("0.165561")
+end)
+
+MainSection:NewButton("0.18742", "0.18742", function()
+    print("0.18742")
+end)
+
+MainSection:NewButton("0.16457", "0.16457", function()
+    print("0.16457")
+end)
+
+MainSection:NewButton("0.16537", "0.16537", function()
+    print("0.16537")
+end)
+
+MainSection:NewButton("0.12194", "0.12194", function()
+    print("0.12194")
+end)
+
+local MainSection = Main:NewSection("200 - 300 Ping Close sets")
+
+MainSection:NewButton("0.16780", "0.16780", function()
+    print("0.16780")
+end)
+
+MainSection:NewButton("0.165732", "0.165732", function()
+    print("0.165732")
+end)
+
+MainSection:NewButton("0.15692", "0.15692", function()
+    print("0.15692")
+end)
+
+MainSection:NewButton("0.16942", "0.16942", function()
+    print("0.16942")
+end)
+
+MainSection:NewButton("0.19284", "0.19284", function()
+    print("0.19284")
+end)
+
+MainSection:NewButton("0.165782", "0.165782", function()
+    print("0.165782")
+end)
+
+MainSection:NewButton("0.19284", "0.19284", function()
+    print("0.19284")
+end)
+
+MainSection:NewButton("0.166547", "0.166547", function()
+    print("0.166547")
+end)
+
+MainSection:NewButton("0.1651", "0.1651", function()
+    print("0.1651")
+end)
+
+MainSection:NewButton("0.165566", "0.165566", function()
+    print("0.165566")
+end)
+
+
+local Main = Window:NewTab("Best Lock Sets")
+local MainSection = Main:NewSection("Best 20 Ping set")
+
+MainSection:NewButton("0.11", "0.11", function()
+    print("0.11")
+end)
+
+local MainSection = Main:NewSection("Best 40 Ping set")
+MainSection:NewButton("0.125", "0.125", function()
+    print("0.125")
+end)
+
+MainSection:NewButton("0.11640", "0.11640", function()
+    print("0.11640")
+end)
+
+local MainSection = Main:NewSection("Best 50 Ping set")
+MainSection:NewButton("0.135", "0.135", function()
+    print("0.135")
+end)
+
+local MainSection = Main:NewSection("Best 80 Ping set")
+MainSection:NewButton("0.165", "0.165", function()
+    print("0.165")
+end)
+
+local MainSection = Main:NewSection("Best 110 Ping set")
+MainSection:NewButton("0.169", "0.169", function()
+    print("0.169")
+end)
+
+local MainSection = Main:NewSection("Best 200 - 300 Ping set")
+MainSection:NewButton("0.16435 (200 Ping)", "ButtonInfo", function()
+    print("0.16435")
+end)
+
+MainSection:NewButton("0.15743 (300 Ping)", "ButtonInfo", function()
+    print("0.15743")
+end)
+
+
+
+local Main = Window:NewTab("Dahood Gui")
+local MainSection = Main:NewSection("Dimag16")
+ MainSection:NewButton("Dimag16", "This is dimag16 script this is not my script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
+end)
+
+local MainSection = Main:NewSection("CFrame Gui")
+MainSection:NewButton("CFrame", "This is CFrame makes u realy fast faster than speed glitch", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/Cframe"))()
+end)
+
+local MainSection = Main:NewSection("GS21 Victime Menu")
+MainSection:NewButton("Victime Menu", "This is victime menu from gs21", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/DH-VictimMenu-Script/main/Dh%20VictimMenu%3A%20Script"))()
+end)
+
+local MainSection = Main:NewSection("SwagMode")
+MainSection:NewButton("SwagMode", "This is swagmode in dahood", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+local MainSection = Main:NewSection("Headless and Korblox")
+ MainSection:NewButton("Headless-Korblox", "This script will give u a fake headless and korblox", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/Headless-Korblox'))()
+end)
+local MainSection = Main:NewSection("Full God")
+MainSection:NewButton("Full God", "This godmode only works on dahood", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/Full%20God'))()
+end)
+
+        
+local Main = Window:NewTab("Arsenal")
+local MainSection = Main:NewSection("VG.HUB")
+        
+MainSection:NewButton("VG.HUB", "This script is from VGHub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+local MainSection = Main:NewSection("OwlHub")
+MainSection:NewButton("OwnHub", "Ownhub works with any game", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+local MainSection = Main:NewSection("DarkHub")
+MainSection:NewButton("DarkHub", "Darkhub works only in Arsenal", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))()
+end)
+
+
+local Main = Window:NewTab("Toggle UI")
+local MainSection = Main:NewSection("ToggleUI")
+
+MainSection:NewKeybind("V", "V is to toggle the UI", Enum.KeyCode.V, function()
+	Library:ToggleUI(V)
+end)
+
+local Main = Window:NewTab("Credits")
+local MainSection = Main:NewSection("Credits to 1_F0 for making this UI")
+local MainSection = Main:NewSection("Credits to .gg/streamable for the Lock scripts")
+local MainSection = Main:NewSection("Credits to .gg/streamable and the Ware also the")
+local MainSection = Main:NewSection("Credits to .gg/streamable Best Sets for Locking")
+local MainSection = Main:NewSection("Made By Jaiden Aka me Slugged#3034")
