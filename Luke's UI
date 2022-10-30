@@ -1,0 +1,363 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+	Name = "Luke's UI",
+	LoadingTitle = "Script Hub",
+	LoadingSubtitle = "by Luke",
+	ConfigurationSaving = {
+		Enabled = true,
+		FileName = "Script Hub"
+	},
+	KeySystem = true, -- Set this to true to use our key system
+	KeySettings = {
+		Title = "Luke's UI",
+		Subtitle = "Key System",
+		Note = "Join the discord for the key(discord.gg/v9nFjysCDa)",
+		Key = "e65f949066a2a3eb7ce4d5b8j842dfle"
+	}
+})
+Rayfield:Notify("Welcome to Luke's ScriptHub","join (discord.gg/v9nFjysCDa) for more information",10010348543) -- (t,c,image)
+
+local Tab = Window:CreateTab("Lock/Ware")
+local Section = Tab:CreateSection("Lock")
+local Button = Tab:CreateButton({
+	Name = "MoonGod Lock",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/Dahood%20Lock"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Hood Customs Lock",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/Hood%20Customs%20Lock"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Untitled Streamable Lock",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/6FJmAD8y"))()
+	end,
+})
+local Section = Tab:CreateSection("Ware")
+local Button = Tab:CreateButton({
+	Name = "FazeWare",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/FazeWare"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "DoomWare",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/buqs9999/Doomware/main/Aimlock"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "NixWare",
+	Callback = function()
+		Loadstring(game:HttpGet('https://ekso.gq/raw/relases/nixware.lua'))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "AimWare",
+	Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/fg0C9NSS'))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "FeevWare",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/FeevWare"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Funxpyware.cc (Only works on untitled hood)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/funxpyware.cc"))()
+	end,
+})
+local Tab = Window:CreateTab("Dahood GUI")
+local Section = Tab:CreateSection("GUI")
+local Button = Tab:CreateButton({
+	Name = "Dimag16",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "SwagMode",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "GS21 Victime Menu",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GS21Official/DH-VictimMenu-Script/main/Dh%20VictimMenu%3A%20Script"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "CFrame GUI",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/Cframe"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Headless/Korblox",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/Headless-Korblox'))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Full God",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/Full%20God'))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "FakeLimiteds",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/VisualWorks"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Anti Fling",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/RobloxianGuy/RobloxianGuy/main/AntiFling'))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Vortex",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Pluto",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpacedYes/lua-projects/master/DaHood.Lua'))()
+	end,
+})
+local Tab = Window:CreateTab("Normal Sets")
+local Section = Tab:CreateSection("20 = 40 Ping")
+local Label = Tab:CreateLabel("0.135")
+local Label = Tab:CreateLabel("0.115")
+local Label = Tab:CreateLabel("0.126")
+local Label = Tab:CreateLabel("0.1499 close/mid/far")
+local Section = Tab:CreateSection("40 = 60 Ping")
+local Label = Tab:CreateLabel("0.129145 Close/Mid")
+local Label = Tab:CreateLabel("0.12 Far")
+local Label = Tab:CreateLabel("0.123 - right click set")
+local Label = Tab:CreateLabel("0.132 Close/Mid")
+local Label = Tab:CreateLabel("0.131 Close/Mid")
+local Label = Tab:CreateLabel("0.1411 Close/Mid")
+local Section = Tab:CreateSection("60-90 Ping Humanoid rootpart Close/mid ONLY")
+local Label = Tab:CreateLabel("0.1402")
+local Label = Tab:CreateLabel("0.11983")
+local Label = Tab:CreateLabel("0.1642")
+local Label = Tab:CreateLabel("0.11983")
+local Section = Tab:CreateSection("70 = 90 Ping MID / CLOSE / FAR SETS")
+local Label = Tab:CreateLabel("0.121192")
+local Label = Tab:CreateLabel("0.1923441")
+local Label = Tab:CreateLabel("0.129331234")
+local Label = Tab:CreateLabel("0.125345")
+local Label = Tab:CreateLabel("0.162231")
+local Label = Tab:CreateLabel("0.142934")
+local Label = Tab:CreateLabel("0.143324")
+local Label = Tab:CreateLabel("0.1244512")
+local Label = Tab:CreateLabel("0.193444")
+local Section = Tab:CreateSection("100 = 140 Ping")
+local Label = Tab:CreateLabel("0.159")
+local Label = Tab:CreateLabel("0.15634")
+local Label = Tab:CreateLabel("0.1659921")
+local Label = Tab:CreateLabel("0.166")
+local Label = Tab:CreateLabel("0.124")
+local Label = Tab:CreateLabel("0.1455")
+local Label = Tab:CreateLabel("0.12399")
+local Label = Tab:CreateLabel("0.1655")
+local Label = Tab:CreateLabel("0.15465")
+local Label = Tab:CreateLabel("0.156692")
+local Label = Tab:CreateLabel("0.165773")
+local Label = Tab:CreateLabel("0.132516 (close) This is pretty trash")
+local Label = Tab:CreateLabel("0.130340 (Close)")
+local Section = Tab:CreateSection("140 = 180 Ping")
+local Label = Tab:CreateLabel("0.129934")
+local Label = Tab:CreateLabel("0.1652131")
+local Label = Tab:CreateLabel("0.125333")
+local Label = Tab:CreateLabel("0.1223333")
+local Label = Tab:CreateLabel("0.15")
+local Label = Tab:CreateLabel("0.16")
+local Label = Tab:CreateLabel("0.165455312399999 (far)")
+local Label = Tab:CreateLabel("0.16779123")
+local Label = Tab:CreateLabel("0.1235666")
+local Label = Tab:CreateLabel("0.1690")
+local Label = Tab:CreateLabel("0.1923111")
+local Section = Tab:CreateSection("200 = 300 Ping far / mid sets")
+local Label = Tab:CreateLabel("0.1746")
+local Label = Tab:CreateLabel("0.1567")
+local Label = Tab:CreateLabel("0.1654")
+local Label = Tab:CreateLabel("0.18321")
+local Label = Tab:CreateLabel("0.1456")
+local Label = Tab:CreateLabel("0.165561")
+local Label = Tab:CreateLabel("0.18742")
+local Label = Tab:CreateLabel("0.16457")
+local Label = Tab:CreateLabel("0.16537")
+local Label = Tab:CreateLabel("0.12194")
+local Section = Tab:CreateSection("200 = 300 Ping Close sets")
+local Label = Tab:CreateLabel("0.16780")
+local Label = Tab:CreateLabel("0.165732")
+local Label = Tab:CreateLabel("0.15692")
+local Label = Tab:CreateLabel("0.16942")
+local Label = Tab:CreateLabel("0.19284")
+local Label = Tab:CreateLabel("0.165782")
+local Label = Tab:CreateLabel("0.19284")
+local Label = Tab:CreateLabel("0.166547")
+local Label = Tab:CreateLabel("0.1651")
+local Label = Tab:CreateLabel("0.165566")
+local Tab = Window:CreateTab("Best Ping sets")
+local Section = Tab:CreateSection("Best 20 Ping")
+local Label = Tab:CreateLabel("0.11")
+local Section = Tab:CreateSection("Best 40 Ping")
+local Label = Tab:CreateLabel("0.125")
+local Label = Tab:CreateLabel("0.11640")
+local Section = Tab:CreateSection("Best 50 Ping")
+local Label = Tab:CreateLabel("0.135")
+local Section = Tab:CreateSection("Best 80 Ping")
+local Label = Tab:CreateLabel("0.165")
+local Section = Tab:CreateSection("Best 110 Ping")
+local Label = Tab:CreateLabel("0.169")
+local Section = Tab:CreateSection("Best 200 = 300 Ping")
+local Label = Tab:CreateLabel("0.16435")
+local Label = Tab:CreateLabel("0.15743")
+local Tab = Window:CreateTab("UntitledHood")
+local Section = Tab:CreateSection("UntitledHood")
+local Button = Tab:CreateButton({
+	Name = "Nyula",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/nyulachan/nyula/main/nyulauh", true))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "ZenHub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenhub/main/script"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Abyss Internal",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/MSrN6Nva"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Vlone V3.1",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/5aCbz0kR", true))()
+	end,
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local Tab = Window:CreateTab("Credits")
+local Section = Tab:CreateSection("Credits to these people")
+local Label = Tab:CreateLabel("Credits to RayFeild for making this UI")
+local Label = Tab:CreateLabel("Credits to .gg/streamable for the Lock scripts")
+local Label = Tab:CreateLabel("Credits to .gg/streamable and the Ware also the")
+local Label = Tab:CreateLabel("Credits to .gg/streamable Best Sets for Locking")
+local Label = Tab:CreateLabel("Credits to Dimag16 for the Dimag script")
+local Label = Tab:CreateLabel("Credits to Nyula .gg/rUuGazujvJ for the Nyula Script")
+local Label = Tab:CreateLabel("Credits to Slammy For the Mary script slammy#5898")
+local Label = Tab:CreateLabel("Credits to Vortex for the script .gg/c7HZJtPtCP")
+local Label = Tab:CreateLabel("Made By Luke Aka me Slugged#3034")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rayfield:LoadConfiguration()
