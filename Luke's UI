@@ -123,6 +123,7 @@ local Button = Tab:CreateButton({
 	Callback = function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpacedYes/lua-projects/master/DaHood.Lua'))()
 	end,
+})
 local Tab = Window:CreateTab("Normal Sets")
 local Section = Tab:CreateSection("20 = 40 Ping")
 local Label = Tab:CreateLabel("0.135")
